@@ -18,7 +18,8 @@ int binarysearch(vector<int>& arr, int target) {
 }
 int main() {
     vector<int> arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-    int target = 5;
+    // int target = 5;
+    int target = 6;
     int result = binarysearch(arr, target);
     if(result != -1) {
         cout << "Element found at index: " << result << endl;
